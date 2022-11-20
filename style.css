@@ -148,6 +148,7 @@ table {
 body{
   font-family: 'Big Shoulders Display', cursive;
   font-family: 'Lexend Deca', sans-serif;
+  background-color: var(--color-Very-light-gray);
   color: var(--color-Transparent-white);
   display: flex;
   justify-content: center;
