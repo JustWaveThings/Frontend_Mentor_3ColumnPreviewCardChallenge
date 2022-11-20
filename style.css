@@ -7,7 +7,7 @@
   --color-Very-dark-cyan: hsl(179, 100%, 13%);
   --color-Transparent-white: hsla(0, 0%, 100%, 0.75);
   --color-Very-light-gray: hsl(0, 0%, 95%);
-}
+}d
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -207,6 +207,7 @@ body{
   line-height: 1.7;
 }
 
+
 button {
   border: none;
   border-radius: 30px;
@@ -215,7 +216,6 @@ button {
   font-weight: 400;
   width: 60%;
 }
-
 .sedan > button {
   color: var(--color-Bright-orange);
 }
@@ -223,8 +223,26 @@ button {
 .suv > button {
   color: var(--color-Dark-cyan);
 }
+
 .luxury > button {
   color: var(--color-Very-dark-cyan);
+}
+
+.sedan > button:hover {
+  background-color: var(--color-Bright-orange);
+  border: 1px solid var(--color-Very-light-gray);
+}
+
+.suv > button:hover {
+  background-color: var(--color-Dark-cyan);
+  border: 1px solid var(--color-Very-light-gray);
+}
+.luxury > button:hover {
+  background-color: var(--color-Very-dark-cyan);
+  border: 1px solid var(--color-Very-light-gray);
+}
+button:hover {
+  color: var(--color-Very-light-gray);
 }
 
 footer {
